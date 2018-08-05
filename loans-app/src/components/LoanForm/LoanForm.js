@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { FormGroup, FormControl, HelpBlock, ControlLabel, Row, Col, Button } from 'react-bootstrap';
+import { FormGroup, FormControl, ControlLabel, Row, Col, Button } from 'react-bootstrap';
 import GridContainer from './../GridContainer/GridContainer';
 import './LoanForm.css';
 
@@ -36,7 +36,7 @@ class LoanForm extends Component {
     loanAmountInput.onkeydown = function(e) {
       if(!((e.keyCode > 95 && e.keyCode < 106)
         || (e.keyCode > 47 && e.keyCode < 58) 
-        || e.keyCode == 8)) {
+        || e.keyCode === 8)) {
           return false;
       }
     };
@@ -93,7 +93,7 @@ class LoanForm extends Component {
   }
 
   canBeSubmitted() {
-    const { firstName, lastName, phoneNumber, email, loanPurpose, loanTerm, loanAmount } = this.state.loanData;
+    const { firstName, lastName, phoneNumber, loanPurpose, loanTerm } = this.state.loanData;
     return (
       firstName.length > 0 && lastName.length > 0 && phoneNumber.length > 0 && this.validateEmail() && loanPurpose.length > 0 && loanTerm.length > 0 && this.validateLoanAmount()
     );

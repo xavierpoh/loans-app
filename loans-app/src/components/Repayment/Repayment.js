@@ -60,7 +60,7 @@ class Repayment extends Component {
     } else if (this.state.repaymentDetails === null) {
       return (
         <div className="loader-container">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" alt="loading" />
         </div>
       )
     } else {
