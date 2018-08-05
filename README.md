@@ -5,6 +5,7 @@ React + Jest + Enzyme
 # Installation
 ```
 - git clone
+- cd loans-app
 - npm install yarn -g
 - yarn install
 - yarn start
