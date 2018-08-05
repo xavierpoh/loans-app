@@ -1,0 +1,51 @@
+.no-loans {
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+.loader-container {
+  text-align: center;
+  padding: 100px;
+}
+
+img {
+  width: 100px;
+}
+
+.repayment-text {
+  margin: 60px 0;
+}
+
+.repayment-btn-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.repayment-btn {
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  background: #019789;
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+  height: 46px;
+}
+
+.repayment-btn:hover {
+  color: #fff;
+  background: #02887b;
+}
+
+.repayment-btn[disabled]:hover {
+  background-color: #019789;
+}
+
+.repayment-btn:focus {
+  color: #fff;
+  background: #019789;
+}

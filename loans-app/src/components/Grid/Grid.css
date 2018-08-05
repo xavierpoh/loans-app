@@ -1,0 +1,38 @@
+.repayment-detail {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px 0 rgba(141, 152, 179, 0.3);
+  box-shadow: 0 0 5px 0 rgba(141, 152, 179, 0.45);
+  border-radius: 4px;
+  padding: 24px;
+  width: 250px;
+  max-width: 100%;
+}
+
+.with-margin {
+  margin-right: 20px;
+}
+
+.header {
+  color: #a2abb4;
+  font-weight: 400;
+}
+
+.header.weekly {
+  color: #3f4347;
+}
+
+.main {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+@media (max-width: 600px) {
+  .with-margin {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .repayment-detail {
+    width: 600px;
+  }
+}

@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavigationBar />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "bsStyle": "default",
+      "children": <NavbarHeader>
+        <NavbarBrand>
+                <a
+                        href="/"
+                >
+                        <img
+                                src="https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png"
+                        />
+                </a>
+        </NavbarBrand>
+</NavbarHeader>,
+      "className": "nav-container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <NavbarBrand>
+          <a
+                    href="/"
+          >
+                    <img
+                              src="https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png"
+                    />
+          </a>
+</NavbarBrand>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <a
+            href="/"
+>
+            <img
+                        src="https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png"
+            />
+</a>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              src="https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png"
+/>,
+            "href": "/",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "src": "https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "a",
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bsStyle": "default",
+        "children": <NavbarHeader>
+          <NavbarBrand>
+                    <a
+                              href="/"
+                    >
+                              <img
+                                        src="https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png"
+                              />
+                    </a>
+          </NavbarBrand>
+</NavbarHeader>,
+        "className": "nav-container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <NavbarBrand>
+            <a
+                        href="/"
+            >
+                        <img
+                                    src="https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png"
+                        />
+            </a>
+</NavbarBrand>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <a
+              href="/"
+>
+              <img
+                            src="https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png"
+              />
+</a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                src="https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png"
+/>,
+              "href": "/",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "src": "https://cdn.iconscout.com/public/images/icon/free/png-512/pied-piper-logo-3b6d62b790130fec-512x512.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "a",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

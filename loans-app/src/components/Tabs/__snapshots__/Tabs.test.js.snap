@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tabs
+    tabList={
+        Array [
+            "Loan Application",
+            "Loan Repayment",
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="tab-btn  left-tab"
+          onClick={[Function]}
+>
+          Loan Application
+</div>,
+        <div
+          className="tab-btn  right-tab"
+          onClick={[Function]}
+>
+          Loan Repayment
+</div>,
+      ],
+      "className": "tabs-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Loan Application",
+          "className": "tab-btn  left-tab",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Loan Application",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Loan Repayment",
+          "className": "tab-btn  right-tab",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Loan Repayment",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="tab-btn  left-tab"
+            onClick={[Function]}
+>
+            Loan Application
+</div>,
+          <div
+            className="tab-btn  right-tab"
+            onClick={[Function]}
+>
+            Loan Repayment
+</div>,
+        ],
+        "className": "tabs-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Loan Application",
+            "className": "tab-btn  left-tab",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Loan Application",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Loan Repayment",
+            "className": "tab-btn  right-tab",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Loan Repayment",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

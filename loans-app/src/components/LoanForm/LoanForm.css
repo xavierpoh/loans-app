@@ -1,0 +1,50 @@
+.loan-text {
+  margin: 40px 0;
+}
+
+.loan-details {
+  margin-bottom: 20px;
+}
+
+.unhide {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
+
+.success-msg {
+  font-size: 20px;
+}
+
+.loan-btn-container {
+  text-align: center;
+  margin: 40px 0;
+}
+.loan-btn {
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  background: #019789;
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+  height: 46px;
+}
+
+.loan-btn:hover {
+  color: #fff;
+  background: #02887b;
+}
+.loan-btn[disabled]:hover {
+  background-color: #019789;
+}
+.loan-btn:focus {
+  color: #fff;
+  background: #019789;
+}
